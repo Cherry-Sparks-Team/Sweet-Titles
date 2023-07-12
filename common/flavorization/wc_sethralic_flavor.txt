@@ -1,0 +1,471 @@
+@special_prio = 400
+
+@special_prio_low = 300
+
+@empire_government_prio = 101
+@kingdom_government_prio = 46
+@duchy_government_prio = 26
+@county_government_prio = 17
+@barony_government_prio = 6
+
+@kingdom_cultural_prio_ind = 50
+@duchy_cultural_prio_ind = 30
+@county_cultural_prio_ind = 21
+@barony_cultural_prio_ind = 10
+
+@empire_cultural_prio = 104
+@kingdom_cultural_prio = 49
+@duchy_cultural_prio = 29
+@county_cultural_prio = 20
+@barony_cultural_prio = 9
+
+@child_kingdom_prio = 7
+@child_duchy_prio = 6
+@child_county_prio = 5
+
+@councillor_empire_prio = 310
+@councillor_kingdom_prio = 300
+@councillor_duchy_prio = 299
+@councillor_county_prio = 280
+
+@empire_heritage_prio = 103
+@kingdom_heritage_prio = 48
+@duchy_heritage_prio = 28
+@county_heritage_prio = 19
+@barony_heritage_prio = 8
+
+@empire_low_heritage_prio = 102
+@kingdom_low_heritage_prio = 47
+@duchy_low_heritage_prio = 27
+@county_low_heritage_prio = 18
+@barony_low_heritage_prio = 7
+
+### Sethralic ###
+# Titles
+lord_male_sethralic_baron = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	heritages = { heritage_sethralic }
+	governments = { feudal_government clan_government necro_government }
+}
+lord_female_sethralic_baron = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	heritages = { heritage_sethralic }
+	governments = { feudal_government clan_government necro_government }
+}
+lordship_sethralic_barony = {
+	type = title
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+wali_male_sethralic_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	heritages = { heritage_sethralic }
+	governments = { feudal_government clan_government necro_government }
+}
+wali_female_sethralic_count = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	heritages = { heritage_sethralic }
+	governments = { feudal_government clan_government necro_government }
+}
+wilayet_sethralic_county = {
+	type = title
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+emire_male_sethralic_duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	heritages = { heritage_sethralic }
+	governments = { feudal_government clan_government necro_government }
+}
+emire_female_sethralic_duke = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	heritages = { heritage_sethralic }
+	governments = { feudal_government clan_government necro_government }
+}
+emirate_sethralic_duchy = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+sultan_male_sethralic_king = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+sultan_female_sethralic_king = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+sultanate_sethralic_kingdom = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+overlord_male_sethralic_king = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+overlord_female_sethralic_king = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+overlordship_sethralic_kingdom = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+emperor_male_sethralic_emperor = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @empire_cultural_prio
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+emperor_female_sethralic_emperor = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @empire_cultural_prio
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+empire_sethralic = {
+	type = title
+	tier = kingdom
+	priority = @empire_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_sethralic }
+}
+
+### Council Positions
+
+sethralic_marshall_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_marshall_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_marshall_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_marshall_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_marshall_male_duchy = {
+	type = character
+	gender = male
+	tier = duchy
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_marshall_female_duchy = {
+	type = character
+	gender = female
+	tier = duchy
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_marshall_male_county = {
+	type = character
+	gender = male
+	tier = county
+	special = councillor
+	priority = @councillor_county_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_marshall_female_county = {
+	type = character
+	gender = female
+	tier = county
+	special = councillor
+	priority = @councillor_county_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_marshal
+}
+
+sethralic_chancellor_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_chancellor
+}
+
+sethralic_chancellor_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_chancellor
+}
+
+sethralic_chancellor_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_chancellor
+}
+
+sethralic_chancellor_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_chancellor
+}
+
+sethralic_chancellor_male = {
+	type = character
+	gender = male
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_chancellor
+}
+
+sethralic_chancellor_female = {
+	type = character
+	gender = female
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_chancellor
+}
+
+sethralic_steward_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_steward
+}
+
+sethralic_steward_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_steward
+}
+
+sethralic_steward_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_steward
+}
+
+sethralic_steward_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_steward
+}
+
+sethralic_steward_male = {
+	type = character
+	gender = male
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_steward
+}
+
+sethralic_steward_female = {
+	type = character
+	gender = female
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_steward
+}
+
+sethralic_spymaster_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_spymaster
+}
+
+sethralic_spymaster_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_spymaster
+}
+
+sethralic_spymaster_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_spymaster
+}
+
+sethralic_spymaster_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_spymaster
+}
+
+sethralic_spymaster_male = {
+	type = character
+	gender = male
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_spymaster
+}
+
+sethralic_spymaster_female = {
+	type = character
+	gender = female
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_sethralic }
+	council_position = councillor_spymaster
+}

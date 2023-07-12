@@ -1,0 +1,104 @@
+﻿GOASTDuchyIndependentDwarwen = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = thanedom_darkiron_duchy
+	}
+	text = {
+		fallback = yes
+		localization_key = dwarf_duchy_independent_pettykingdom_default
+	}
+}
+
+GOASTDuchyIndependentArathor = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = goast_duchy_arathorian
+	}
+	text = {
+		fallback = yes
+		localization_key = human_duchy_independent_warhlord_default
+	}
+}
+
+GOASTDuchyIndependentLordaeron = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_kingdom
+		}
+		localization_key = tfest_duchy_imperial_default
+	}
+	text = {
+		fallback = yes
+		localization_key = human_duchy_independent_highlord_default
+	}
+}
+
+KingdomIndependentHumanArathorian = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_empire
+		}
+		localization_key = human_kingdom_independent_arathorian
+	}
+	text = {
+		fallback = yes
+		localization_key = goast_human_kingdom_independent_human_default
+	}
+}
+
+KingdomIndependentHumanLordaeronian = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_empire
+		}
+		localization_key = human_kingdom_independent_lordaeronian
+	}
+	text = {
+		fallback = yes
+		localization_key = goast_human_kingdom_independent_human_default
+	}
+}
+
+KingdomIndependentHumanAlteraci = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_empire
+		}
+		localization_key = human_kingdom_independent_alteraci
+	}
+	text = {
+		fallback = yes
+		localization_key = goast_human_kingdom_independent_human_default
+	}
+}
+
+KingdomIndependentHumanGilnean = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier >= tier_empire
+		}
+		localization_key = human_kingdom_independent_gilnean
+	}
+	text = {
+		fallback = yes
+		localization_key = goast_human_kingdom_independent_human_default
+	}
+}

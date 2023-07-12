@@ -1,0 +1,643 @@
+﻿### Arathorian
+GOASTDukeFeudalHumanArathorian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marquess_arathorian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_arathorian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duke_arathorian
+    }
+}
+GOASTDuchessFeudalHumanArathorian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marchioness_arathorian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_f_arathorian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchess_arathorian
+    }
+}
+GOASTDuchyFeudalHumanArathorian = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_march_arathorian
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_palatinate_arathorian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchy_arathorian
+    }
+}
+
+GOASTKingFeudalHumanArathorian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_arathorian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_arathorian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_king_arathorian
+    }
+}
+GOASTQueenFeudalHumanArathorian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_f_arathorian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_f_arathorian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_queen_arathorian
+    }
+}
+GOASTKingdomFeudalHumanArathorian = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_marches_arathorian
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_archduchy_arathorian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_kingdom_arathorian
+    }
+}
+
+### Lordaeronian
+GOASTDukeFeudalHumanLordaeronian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marquess_lordaeronian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_lordaeronian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duke_lordaeronian
+    }
+}
+GOASTDuchessFeudalHumanLordaeronian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marchioness_lordaeronian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_f_lordaeronian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchess_lordaeronian
+    }
+}
+GOASTDuchyFeudalHumanLordaeronian = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_march_lordaeronian
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_palatinate_lordaeronian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchy_lordaeronian
+    }
+}
+
+GOASTKingFeudalHumanLordaeronian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_lordaeronian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_lordaeronian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_king_lordaeronian
+    }
+}
+GOASTQueenFeudalHumanLordaeronian = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_f_lordaeronian
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_f_lordaeronian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_queen_lordaeronian
+    }
+}
+GOASTKingdomFeudalHumanLordaeronian = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_marches_lordaeronian
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_archduchy_lordaeronian
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_kingdom_lordaeronian
+    }
+}
+
+### Alteraci
+GOASTDukeFeudalHumanAlteraci = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marquess_alteraci
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_alteraci
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duke_alteraci
+    }
+}
+GOASTDuchessFeudalHumanAlteraci = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marchioness_alteraci
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_f_alteraci
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchess_alteraci
+    }
+}
+GOASTDuchyFeudalHumanAlteraci = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_march_alteraci
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_palatinate_alteraci
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchy_alteraci
+    }
+}
+
+GOASTKingFeudalHumanAlteraci = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_alteraci
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_alteraci
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_king_alteraci
+    }
+}
+GOASTQueenFeudalHumanAlteraci = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_f_alteraci
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_f_alteraci
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_queen_alteraci
+    }
+}
+GOASTKingdomFeudalHumanAlteraci = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_marches_alteraci
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_archduchy_alteraci
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_kingdom_alteraci
+    }
+}
+
+### Gilnean
+GOASTDukeFeudalHumanGilnean = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marquess_gilnean
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_gilnean
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duke_gilnean
+    }
+}
+GOASTDuchessFeudalHumanGilnean = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_duchy
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marchioness_gilnean
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_palatine_f_gilnean
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchess_gilnean
+    }
+}
+GOASTDuchyFeudalHumanGilnean = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_march_gilnean
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_palatinate_gilnean
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_duchy_gilnean
+    }
+}
+
+GOASTKingFeudalHumanGilnean = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_gilnean
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_gilnean
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_king_gilnean
+    }
+}
+GOASTQueenFeudalHumanGilnean = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_march_contract
+                AND = {
+                    highest_held_title_tier < tier_kingdom
+                    exists = primary_spouse
+					root.primary_spouse = {
+						vassal_contract_has_flag = has_march_contract
+					}
+                }
+            }
+        }
+        localization_key = goast_marshall_f_gilnean
+    }
+    text = {
+        trigger = {
+            OR = {
+                vassal_contract_has_flag = has_palatinate_contract
+            }
+        }
+        localization_key = goast_archduke_f_gilnean
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_queen_gilnean
+    }
+}
+GOASTKingdomFeudalHumanGilnean = {
+    type = character
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_march_contract
+        }
+        localization_key = goast_marches_gilnean
+    }
+    text = {
+        trigger = {
+            vassal_contract_has_flag = has_palatinate_contract
+        }
+        localization_key = goast_archduchy_gilnean
+    }
+    text = {
+        fallback = yes
+        localization_key = goast_kingdom_gilnean
+    }
+}

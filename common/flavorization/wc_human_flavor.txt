@@ -1,0 +1,1617 @@
+@special_prio = 400
+
+@special_prio_low = 300
+
+@empire_government_prio = 101
+@kingdom_government_prio = 46
+@duchy_government_prio = 26
+@county_government_prio = 17
+@barony_government_prio = 6
+
+@kingdom_cultural_prio_ind = 50
+@duchy_cultural_prio_ind = 30
+@county_cultural_prio_ind = 21
+@barony_cultural_prio_ind = 10
+
+@empire_cultural_prio = 104
+@kingdom_cultural_prio = 49
+@duchy_cultural_prio = 29
+@county_cultural_prio = 20
+@barony_cultural_prio = 9
+
+@child_kingdom_prio = 7
+@child_duchy_prio = 6
+@child_county_prio = 5
+
+@councillor_empire_prio = 310
+@councillor_kingdom_prio = 300
+@councillor_duchy_prio = 299
+@councillor_county_prio = 280
+
+@empire_heritage_prio = 103
+@kingdom_heritage_prio = 48
+@duchy_heritage_prio = 28
+@county_heritage_prio = 19
+@barony_heritage_prio = 8
+
+@empire_low_heritage_prio = 102
+@kingdom_low_heritage_prio = 47
+@duchy_low_heritage_prio = 27
+@county_low_heritage_prio = 18
+@barony_low_heritage_prio = 7
+
+# Human Feudal
+
+# Stromic
+
+human_male_emperor_arathorian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_female_emperor_arathorian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_empire_arathorian = {
+	type = title
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+
+human_male_king_independent_arathorian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_female_king_independent_arathorian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic }
+}
+human_kingdom_independent_arathorian = {
+	type = title
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+
+human_male_king_arathorian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_female_king_arathorian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_kingdom_arathorian = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+
+human_male_duke_arathorian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_female_duke_arathorian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_duchy_arathorian = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+
+human_male_count_arathorian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_female_count_arathorian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_county_arathorian = {
+	type = title
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+
+human_male_baron_arathorian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+human_female_baron_arathorian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic }
+}
+human_barony_arathorian = {
+	type = title
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_stromic name_list_baradin }
+}
+
+# Lordaeronian
+
+human_male_emperor_lordaeronian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_female_emperor_lordaeronian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_empire_lordaeronian = {
+	type = title
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+
+human_male_king_independent_lordaeronian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_female_king_independent_lordaeronian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_kingdom_independent_lordaeronian = {
+	type = title
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+
+human_male_king_lordaeronian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_female_king_lordaeronian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_kingdom_lordaeronian = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+
+human_male_duke_lordaeronian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_female_duke_lordaeronian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_duchy_lordaeronian = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+
+human_male_count_lordaeronian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian name_list_alteraci }
+}
+human_female_count_lordaeronian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian name_list_alteraci }
+}
+human_county_lordaeronian = {
+	type = title
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian name_list_alteraci }
+}
+
+human_male_baron_lordaeronian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_female_baron_lordaeronian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+human_barony_lordaeronian = {
+	type = title
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_lordaeronian name_list_hillsbradian name_list_azerothian }
+}
+
+# Alteraci
+
+human_male_emperor_alteraci = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_female_emperor_alteraci = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_empire_alteraci = {
+	type = title
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+
+human_male_king_independent_alteraci = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_female_king_independent_alteraci = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_kingdom_independent_alteraci = {
+	type = title
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+
+human_male_king_alteraci = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_female_king_alteraci = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_kingdom_alteraci = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+
+human_male_duke_alteraci = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_female_duke_alteraci = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_duchy_alteraci = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+
+human_male_count_alteraci = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_dalaranian }
+}
+human_female_count_alteraci = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_dalaranian }
+}
+human_county_alteraci = {
+	type = title
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_dalaranian }
+}
+
+human_male_baron_alteraci = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_female_baron_alteraci = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+human_barony_alteraci = {
+	type = title
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_alteraci name_list_dalaranian }
+}
+
+# Gilnean
+
+human_male_emperor_gilnean = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_female_emperor_gilnean = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_empire_gilnean = {
+	type = title
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+
+human_male_king_independent_gilnean = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_female_king_independent_gilnean = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_kingdom_independent_gilnean = {
+	type = title
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+
+human_male_king_gilnean = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_female_king_gilnean = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_kingdom_gilnean = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+
+human_male_duke_gilnean = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_female_duke_gilnean = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_duchy_gilnean = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+
+human_male_count_gilnean = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_female_count_gilnean = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_county_gilnean = {
+	type = title
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+
+human_male_baron_gilnean = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_female_baron_gilnean = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_barony_gilnean = {
+	type = title
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+
+# Western
+
+human_male_emperor_wastewander = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_female_emperor_western = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_empire_wastewander = {
+	type = title
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+
+human_male_king_independent_wastewander = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_female_king_independent_wastewander = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_kingdom_independent_wastewander = {
+	type = title
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+
+human_male_king_wastewander = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_female_king_wastewander = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_kingdom_wastewander = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+
+human_male_duke_wastewander = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_female_duke_wastewander = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_duchy_wastewander = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+
+human_male_count_wastewander = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_female_count_wastewander = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+human_county_wastewander = {
+	type = title
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_wastewander }
+}
+
+human_male_baron_wastewander = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_female_baron_wastewander = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+human_barony_wastewander = {
+	type = title
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian }
+}
+
+### Special
+
+human_male_duke_independent_highlord = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian name_list_alteraci name_list_dalaranian name_list_azerothian name_list_lordaeronian }
+}
+human_female_duke_independent_highlord = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian name_list_alteraci name_list_dalaranian name_list_azerothian name_list_lordaeronian }
+}
+human_duchy_independent_highlord = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian name_list_alteraci name_list_dalaranian name_list_azerothian name_list_lordaeronian }
+}
+
+human_male_duke_independent_warlord = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian name_list_stromic name_list_baradin name_list_hillsbradian }
+}
+human_female_duke_independent_warlord = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian name_list_stromic name_list_baradin name_list_hillsbradian }
+}
+human_duchy_independent_warlord = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_gilnean name_list_theramorian name_list_stromic name_list_baradin name_list_hillsbradian }
+}
+
+stromic_male_emperor = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @special_prio
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_northern heritage_arathi heritage_gilnean heritage_southern }
+	titles = { e_arathor_empire }
+}
+stromic_female_emperor = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	top_liege = yes
+	priority = @special_prio
+	heritages = { heritage_northern heritage_arathi heritage_gilnean heritage_southern }
+	titles = { e_arathor_empire }
+}
+
+### Council Positions
+
+human_marshall_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_marshall_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_marshall_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_marshall_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_marshall_male_duchy = {
+	type = character
+	gender = male
+	tier = duchy
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_marshall_female_duchy = {
+	type = character
+	gender = female
+	tier = duchy
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_marshall_male_county = {
+	type = character
+	gender = male
+	tier = county
+	special = councillor
+	priority = @councillor_county_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_marshall_female_county = {
+	type = character
+	gender = female
+	tier = county
+	special = councillor
+	priority = @councillor_county_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_marshal
+}
+
+human_chancellor_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_chancellor
+}
+
+human_chancellor_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_chancellor
+}
+
+human_chancellor_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_chancellor
+}
+
+human_chancellor_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_chancellor
+}
+
+human_chancellor_male = {
+	type = character
+	gender = male
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_chancellor
+}
+
+human_chancellor_female = {
+	type = character
+	gender = female
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_chancellor
+}
+
+human_steward_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_steward
+}
+
+human_steward_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_steward
+}
+
+human_steward_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_steward
+}
+
+human_steward_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_steward
+}
+
+human_steward_male = {
+	type = character
+	gender = male
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_steward
+}
+
+human_steward_female = {
+	type = character
+	gender = female
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_steward
+}
+
+human_spymaster_male_empire = {
+	type = character
+	gender = male
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_spymaster
+}
+
+human_spymaster_female_empire = {
+	type = character
+	gender = female
+	tier = empire
+	special = councillor
+	priority = @councillor_empire_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_spymaster
+}
+
+human_spymaster_male_kingdom = {
+	type = character
+	gender = male
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_spymaster
+}
+
+human_spymaster_female_kingdom = {
+	type = character
+	gender = female
+	tier = kingdom
+	special = councillor
+	priority = @councillor_kingdom_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_spymaster
+}
+
+human_spymaster_male = {
+	type = character
+	gender = male
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_spymaster
+}
+
+human_spymaster_female = {
+	type = character
+	gender = female
+	special = councillor
+	priority = @councillor_duchy_prio
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+	council_position = councillor_spymaster
+}
+
+# Theocracies
+
+human_male_emperor_theocracy = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_female_emperor_theocracy = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_empire_theocracy = {
+	type = title
+	tier = empire
+	priority = @special_prio_low
+	top_liege = yes
+    governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+
+human_male_king_theocracy = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_female_king_theocracy = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_kingdom_theocracy = {
+	type = title
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+    governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+
+human_male_duke_theocracy = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_female_duke_theocracy = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_duchy_theocracy = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+    governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+
+human_male_count_theocracy = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_female_count_theocracy = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_county_theocracy = {
+	type = title
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+    governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+
+human_male_baron_theocracy = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_female_baron_theocracy = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+	governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+human_barony_theocracy = {
+	type = title
+	tier = barony
+	priority = @barony_cultural_prio
+	top_liege = no
+    governments = { theocracy_government }
+	heritages = { heritage_arathi heritage_gilnean }
+}
+
+# Princes, Princesses and Lords
+
+human_prince = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	priority = 40
+	top_liege = no
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_princess = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government }
+	priority = 40
+	top_liege = no
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_prince_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	governments = { feudal_government clan_government necro_government }
+	priority = 45
+	top_liege = no
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_princess_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	governments = { feudal_government clan_government necro_government }
+	priority = 45
+	top_liege = no
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_highlord_king = {
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = @child_kingdom_prio
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_highlady_king = {
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = @child_kingdom_prio
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_lord_duke = {
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = @child_duchy_prio
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_lady_duke = {
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = @child_duchy_prio
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_master_count = {
+	gender = male
+	special = ruler_child
+	tier = county
+	priority = @child_county_prio
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+human_mistress_count = {
+	gender = female
+	special = ruler_child
+	tier = county
+	priority = @child_county_prio
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_arathi heritage_gilnean heritage_southern }
+}
+
+# Northern Titulature Expansion
+
+# Princes, Princesses and Lords
+
+human_prince_norhtern = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government tribal_government }
+	priority = 40
+	top_liege = no
+	heritages = { heritage_norhtern }
+}
+
+human_princess_norhtern = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government tribal_government }
+	priority = 40
+	top_liege = no
+	heritages = { heritage_norhtern }
+}
+
+human_prince_empire_norhtern = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	governments = { feudal_government clan_government necro_government tribal_government }
+	priority = 45
+	top_liege = no
+	heritages = { heritage_norhtern }
+}
+
+human_princess_empire_norhtern = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	governments = { feudal_government clan_government necro_government tribal_government }
+	priority = 45
+	top_liege = no
+	heritages = { heritage_norhtern }
+}
+
+human_lord_duke_norhtern = {
+	gender = male
+	special = ruler_child
+	tier = duchy
+	priority = @child_duchy_prio
+	governments = { feudal_government clan_government necro_government tribal_government }
+	heritages = { heritage_norhtern }
+}
+
+human_lady_duke_norhtern = {
+	gender = female
+	special = ruler_child
+	tier = duchy
+	priority = @child_duchy_prio
+	governments = { feudal_government clan_government necro_government tribal_government }
+	heritages = { heritage_norhtern }
+}
+
+human_master_count_norhtern = {
+	gender = male
+	special = ruler_child
+	tier = county
+	priority = @child_county_prio
+	governments = { feudal_government clan_government necro_government tribal_government }
+	heritages = { heritage_norhtern }
+}
+
+human_mistress_count_norhtern = {
+	gender = female
+	special = ruler_child
+	tier = county
+	priority = @child_county_prio
+	governments = { feudal_government clan_government necro_government tribal_government }
+	heritages = { heritage_norhtern }
+}

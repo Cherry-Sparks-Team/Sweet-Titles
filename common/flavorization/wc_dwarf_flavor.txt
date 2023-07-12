@@ -1,0 +1,297 @@
+@special_prio = 400
+
+@special_prio_low = 300
+
+@empire_government_prio = 101
+@kingdom_government_prio = 46
+@duchy_government_prio = 26
+@county_government_prio = 17
+@barony_government_prio = 6
+
+@kingdom_cultural_prio_ind = 50
+@duchy_cultural_prio_ind = 30
+@county_cultural_prio_ind = 21
+@barony_cultural_prio_ind = 10
+
+@empire_cultural_prio = 104
+@kingdom_cultural_prio = 49
+@duchy_cultural_prio = 29
+@county_cultural_prio = 20
+@barony_cultural_prio = 9
+
+@child_kingdom_prio = 7
+@child_duchy_prio = 6
+@child_county_prio = 5
+
+@councillor_empire_prio = 310
+@councillor_kingdom_prio = 300
+@councillor_duchy_prio = 299
+@councillor_county_prio = 280
+
+@empire_heritage_prio = 103
+@kingdom_heritage_prio = 48
+@duchy_heritage_prio = 28
+@county_heritage_prio = 19
+@barony_heritage_prio = 8
+
+@empire_low_heritage_prio = 102
+@kingdom_low_heritage_prio = 47
+@duchy_low_heritage_prio = 27
+@county_low_heritage_prio = 18
+@barony_low_heritage_prio = 7
+
+# Dwarf Feudal
+
+### Common ###
+# Feudal
+minor_lord_male_dwarf_baron = {
+    type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = @barony_heritage_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_dwarven }
+}
+minor_lady_female_dwarf_baron = {
+    type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = @barony_heritage_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_dwarven }
+}
+minor_lordship_dwarf_barony = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = @barony_heritage_prio
+	governments = { feudal_government clan_government necro_government }
+	heritages = { heritage_dwarven }
+}
+
+### Bronzebeard ###
+# Feudal
+count_male_bronzebeard = {
+    type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_bronzebeard }
+}
+count_female_bronzebeard = {
+    type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = @county_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_bronzebeard }
+}
+county_bronzebeard = {
+	type = title
+	tier = county
+	top_liege = no
+	priority = @county_cultural_prio
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_bronzebeard }
+}
+duke_male_bronzebeard = {
+    type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_bronzebeard }
+}
+duke_female_bronzebeard = {
+    type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_bronzebeard }
+}
+duchy_bronzebeard = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = @duchy_cultural_prio
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_bronzebeard }
+}
+
+### Wildhammer ###
+
+high_thanedom_wildhammer_kingdom = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = @kingdom_cultural_prio
+	governments = { feudal_government clan_government tribal_government necro_government }
+	name_lists = { name_list_wildhammer }
+}
+
+### Dark Iron ###
+# Feudal
+king_male_darkiron_king = {
+    type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+king_female_darkiron_king = {
+    type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+kingdom_darkiron_kingdom = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = @kingdom_cultural_prio
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+high_thane_male_darkiron_king = {
+    type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+high_thane_female_darkiron_king = {
+    type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @kingdom_cultural_prio
+	top_liege = no
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+high_thanedom_darkiron_kingdom = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = @kingdom_cultural_prio
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+emperor_male_darkiron_emperor = {
+    type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = @empire_cultural_prio
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+emperor_female_darkiron_emperor = {
+    type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = @empire_cultural_prio
+	top_liege = yes
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+empire_darkiron_empire = {
+	type = title
+	tier = empire
+	top_liege = yes
+	priority = @empire_cultural_prio
+	governments = { feudal_government clan_government necro_government }
+	name_lists = { name_list_dark_iron }
+}
+# Special
+emperor_male_darkiron_shadowforge {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	governments = { feudal_government clan_government tribal_government necro_government eldritch_government republic_government }
+	name_lists = { name_list_dark_iron }
+	titles = { k_blackrock }
+}
+emperor_female_darkiron_shadowforge {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = @special_prio
+	top_liege = no
+	governments = { feudal_government clan_government tribal_government necro_government eldritch_government republic_government }
+	name_lists = { name_list_dark_iron }
+	titles = { k_blackrock }
+}
+empire_darkiron_shadowforge = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = @special_prio
+	governments = { feudal_government clan_government tribal_government necro_government eldritch_government republic_government }
+    name_lists = { name_list_dark_iron }
+	titles = { k_blackrock }
+}
+
+### Special
+
+dwarf_male_duke_independent_pettyking = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government tribal_government }
+	heritages = { heritage_dwarven }
+}
+dwarf_female_duke_independent_pettyking = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+	governments = { feudal_government clan_government necro_government tribal_government }
+	heritages = { heritage_dwarven }
+}
+dwarf_duchy_independent_pettykingdom = {
+	type = title
+	tier = duchy
+	priority = @duchy_cultural_prio_ind
+	top_liege = no
+	only_independent = yes
+    governments = { feudal_government clan_government necro_government tribal_government }
+	heritages = { heritage_dwarven }
+}

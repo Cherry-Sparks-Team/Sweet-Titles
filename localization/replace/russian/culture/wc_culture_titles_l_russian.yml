@@ -1,0 +1,879 @@
+﻿l_russian:
+ ####################################################
+ # Special titles
+ ### Horde ###
+ warchief_male_emperor:0 "Вождь"
+ warchief_female_emperor:0 "Вождь"
+
+ ### Scourge ###
+ lich_king_male:0 "Король-лич"
+ lich_king_female:0 "Королева-лич"
+
+ ### Night Elves ###
+ high_priest_kaldorei_male:0 "$HIGH_PRIEST_MALE_NAME$"
+ high_priestess_kaldorei_female:0 "$HIGH_PRIEST_FEMALE_NAME$"
+
+ # Special cultural titles (sorted by culture, then government type).
+ ### Orcs ###
+ # Feudal
+ lord_male_orc_baron:0 "Лорд"
+ lord_female_orc_baron:0 "Леди"
+ lordship_orc_barony:0 "Лордство"
+ overlord_male_orc_count:0 "Повелитель"
+ overlord_female_orc_count:0 "Повелительница"
+ overlordship_orc_county:0 "Владычество"
+ high_overlord_male_orc_duke:0 "Верховный повелитель"
+ high_overlord_female_orc_duke:0 "Верховная повелительница"
+ clanhead_male_orc_duke:0 "Глава клана"
+ clanhead_female_orc_duke:0 "Глава клана"
+ clan_orc_duchy:0 "Клан"
+ domain_orc_duchy:0 "Домен"
+ warlord_male_orc_king:0 "Военачальник"
+ warlord_female_orc_king:0 "Военачальница"
+ tribal_union_orc_kingdom:0 "Клановый союз"
+ dominion_orc_kingdom:0 "Доминион"
+ warchief_male_orc_emperor:0 "Военный вождь"
+ warchief_female_orc_emperor:0 "Военный вождь"
+ despoth_male_orc_emperor:0 "Верховный воевода"
+ despoth_female_orc_emperor:0 "Верховная воевода"
+ horde_orc_empire:0 "Орда"
+ despothy_orc_empire:0 "Великий доминион"
+ # Demonic Orcish
+ warmaster_demonic_orc_male_emperor:0 "Воитель"
+ warmaster_demonic_orc_female_emperor:0 "Воитель"
+ warhorde_demonic_orc_empire:0 "Воинственная орда"
+ warhost_demonic_orc_kingdom:0 "Воинство"
+ overlord_demonic_orc_male_duke:0 "Владыка"
+ overlord_demonic_orc_female_duke:0 "Владычица"
+ overlordship_demonic_orc_duchy:0 "Владычество"
+ commander_demonic_orc_male_count:0 "Командир"
+ commander_demonic_orc_female_count:0 "Командир"
+ commandory_demonic_orc_county:0 "Командория"
+
+ ### High Elves / Blood Elves ###
+ # Feudal
+ lord_male_highelf_count:0 "Лорд"
+ lady_female_highelf_count:0 "Леди"
+ lordship_highelf_county:0 "Лордство"
+ high_king_male_highelf_emperor:0 "Верховный король"
+ high_queen_female_highelf_emperor:0 "Верховная королева"
+ high_kingdom_highelf_empire:0 "Верховное королевство"
+
+ ### Highbornes / Nightbornes ###
+ # Nightborne specific
+ vicomte_male_nightborne_count:0 "Виконт"
+ vicomtesse_male_nightborne_count:0 "Виконтесса"
+ vicomte_nightborne_county:0 "Виконтcтво"
+
+ # Feudal
+ prince_male_highborne_duke:0 "Князь"
+ princess_female_highborne_duke:0 "Княгиня"
+ principality_highborne_duchy:0 "Княжество"
+ grand_prince_male_highborne_king:0 "Великий князь"
+ grand_princess_female_highborne_king:0 "Великая княгиня"
+ grand_principality_highborne_kingdom:0 "Великое княжество"
+ king_male_highborne_emperor:0 "Король"
+ queen_female_highborne_emperor:0 "Королева"
+
+ ### Nagas ###
+ lord_male_naga_count:0 "Лорд"
+ lady_female_naga_count:0 "Леди"
+ lordship_naga_county:0 "Лордство"
+ tide_lord_male_naga_duke:0 "Владыка приливов"
+ matron_female_naga_duke:0 "Матрона"
+ coildom_naga_duchy:0 "Клыкство"
+ warlord_male_naga_king:0 "Военачальник"
+ tidemistress_female_naga_king:0 "Владычица приливов"
+ raj_male_naga_emperor:0 "Радж"
+ queen_female_naga_emperor:0 "Королева"
+
+ ### Humans group / Dwarf group ###
+ # Feudal
+ high_king_male_emperor:0 "Верховный король"
+ high_queen_female_emperor:0 "Верховная королева"
+ high_kingdom_empire:0 "Верховное королевство"
+ 
+ ### Human Feudal
+ 
+ # Arathorian
+ 
+ human_male_emperor_arathorian:0 "Император"
+ human_female_emperor_arathorian:0 "Императрица"
+ human_empire_arathorian:0 "Империя"
+ human_male_king_arathorian:0 "[CHARACTER.Custom('GOASTKingFeudalHumanArathorian')]"
+ human_female_king_arathorian:0 "[CHARACTER.Custom('GOASTQueenFeudalHumanArathorian')]"
+ human_kingdom_arathorian:0 "[CHARACTER.Custom('GOASTKingdomFeudalHumanArathorian')]"
+ human_male_king_independent_arathorian:0 "Король"
+ human_female_king_independent_arathorian:0 "Королева"
+ human_kingdom_independent_arathorian:0 "[CHARACTER.Custom('KingdomIndependentHumanArathorian')]"
+ human_male_duke_arathorian:0 "[CHARACTER.Custom('GOASTDukeFeudalHumanArathorian')]"
+ human_female_duke_arathorian:0 "[CHARACTER.Custom('GOASTDuchessFeudalHumanArathorian')]"
+ human_duchy_arathorian:0 "[CHARACTER.Custom('GOASTDuchyFeudalHumanArathorian')]"
+ human_male_count_arathorian:0 "Граф"
+ human_female_count_arathorian:0 "Графиня"
+ human_county_arathorian:0 "Графство"
+ human_male_baron_arathorian:0 "Барон"
+ human_female_baron_arathorian:0 "Баронесса"
+ human_barony_arathorian:0 "Баронство"
+ 
+ # Lordaeronian
+ 
+ human_male_emperor_lordaeronian:0 "Король"
+ human_female_emperor_lordaeronian:0 "Королева"
+ human_empire_lordaeronian:0 "Королевство"
+ human_male_king_lordaeronian:0 "[CHARACTER.Custom('GOASTKingFeudalHumanLordaeronian')]"
+ human_female_king_lordaeronian:0 "[CHARACTER.Custom('GOASTQueenFeudalHumanLordaeronian')]"
+ human_kingdom_lordaeronian:0 "[CHARACTER.Custom('GOASTKingdomFeudalHumanLordaeronian')]"
+ human_male_king_independent_lordaeronian:0 "Король"
+ human_female_king_independent_lordaeronian:0 "Королева"
+ human_kingdom_independent_lordaeronian:0 "[CHARACTER.Custom('KingdomIndependentHumanLordaeronian')]"
+ human_male_duke_lordaeronian:0 "[CHARACTER.Custom('GOASTDukeFeudalHumanLordaeronian')]"
+ human_female_duke_lordaeronian:0 "[CHARACTER.Custom('GOASTDuchessFeudalHumanLordaeronian')]"
+ human_duchy_lordaeronian:0 "[CHARACTER.Custom('GOASTDuchyFeudalHumanLordaeronian')]"
+ human_male_count_lordaeronian:0 "Барон"
+ human_female_count_lordaeronian:0 "Баронесса"
+ human_county_lordaeronian:0 "Баронство"
+ human_male_baron_lordaeronian:0 "Сир"
+ human_female_baron_lordaeronian:0 "Дама"
+ human_barony_lordaeronian:0 "Феод"
+ 
+ # Alteraci
+ 
+ human_male_emperor_alteraci:0 "Король"
+ human_female_emperor_alteraci:0 "Королева"
+ human_empire_alteraci:0 "Королевство"
+ human_male_king_alteraci:0 "[CHARACTER.Custom('GOASTKingFeudalHumanAlteraci')]"
+ human_female_king_alteraci:0 "[CHARACTER.Custom('GOASTQueenFeudalHumanAlteraci')]"
+ human_kingdom_alteraci:0 "[CHARACTER.Custom('GOASTKingdomFeudalHumanAlteraci')]"
+ human_male_king_independent_alteraci:0 "Король"
+ human_female_king_independent_alteraci:0 "Королева"
+ human_kingdom_independent_alteraci:0 "[CHARACTER.Custom('KingdomIndependentHumanAlteraci')]"
+ human_male_duke_alteraci:0 "[CHARACTER.Custom('GOASTDukeFeudalHumanAlteraci')]"
+ human_female_duke_alteraci:0 "[CHARACTER.Custom('GOASTDuchessFeudalHumanAlteraci')]"
+ human_duchy_alteraci:0 "[CHARACTER.Custom('GOASTDuchyFeudalHumanAlteraci')]"
+ human_male_count_alteraci:0 "Виконт"
+ human_female_count_alteraci:0 "Виконтесса"
+ human_county_alteraci:0 "Виконтство"
+ human_male_baron_alteraci:0 "Лорд"
+ human_female_baron_alteraci:0 "Леди"
+ human_barony_alteraci:0 "Лордство"
+ 
+ # Gilnean
+ 
+ human_male_emperor_gilnean:0 "Король"
+ human_female_emperor_gilnean:0 "Королева"
+ human_empire_gilnean:0 "Королевство"
+ human_male_king_gilnean:0 "[CHARACTER.Custom('GOASTKingFeudalHumanGilnean')]"
+ human_female_king_gilnean:0 "[CHARACTER.Custom('GOASTQueenFeudalHumanGilnean')]"
+ human_kingdom_gilnean:0 "[CHARACTER.Custom('GOASTKingdomFeudalHumanGilnean')]"
+ human_male_king_independent_gilnean:0 "Король"
+ human_female_king_independent_gilnean:0 "Королева"
+ human_kingdom_independent_gilnean:0 "[CHARACTER.Custom('KingdomIndependentHumanGilnean')]"
+ human_male_duke_gilnean:0 "[CHARACTER.Custom('GOASTDukeFeudalHumanGilnean')]"
+ human_female_duke_gilnean:0 "[CHARACTER.Custom('GOASTDuchessFeudalHumanGilnean')]"
+ human_duchy_gilnean:0 "[CHARACTER.Custom('GOASTDuchyFeudalHumanGilnean')]"
+ human_male_count_gilnean:0 "Барон"
+ human_female_count_gilnean:0 "Баронесса"
+ human_county_gilnean:0 "Баронство"
+ human_male_baron_gilnean:0 "Лорд"
+ human_female_baron_gilnean:0 "Леди"
+ human_barony_gilnean:0 "Усадьба"
+ 
+ # Wastewander
+ 
+ human_male_emperor_wastewander:0 "Шахиншах"
+ human_female_emperor_wastewander:0 "Банебшенан банебшен"
+ human_empire_wastewander:0 "Империя"
+ human_male_king_wastewander:0 "Великий сатрап"
+ human_female_king_wastewander:0 "Великая сатрапа"
+ human_kingdom_wastewander:0 "Великая сатрапия"
+ human_male_king_independent_wastewander:0 "Шах"
+ human_female_king_independent_wastewander:0 "Банебшен"
+ human_kingdom_independent_wastewander:0 "Шахство"
+ human_male_duke_wastewander:0 "Сатрап"
+ human_female_duke_wastewander:0 "Сатрапа"
+ human_duchy_wastewander:0 "Сатрапия"
+ human_male_count_wastewander:0 "Марзпан"
+ human_female_count_wastewander:0 "Марзпана"
+ human_county_wastewander:0 "Марзпанат"
+ human_male_baron_wastewander:0 "Аргбед"
+ human_female_baron_wastewander:0 "Аргбеда"
+ human_barony_wastewander:0 "Арг"
+ 
+ # Theocracy
+ 
+ human_male_emperor_theocracy:0 "Священный император"
+ human_female_emperor_theocracy:0 "Священная императрица"
+ human_empire_theocracy:0 "Священная империя"
+ human_male_king_theocracy:0 "Король-епископ"
+ human_female_king_theocracy:0 "Королева-епископ"
+ human_kingdom_theocracy:0 "Священное королевство"
+ human_male_duke_theocracy:0 "Князь-архиепископ"
+ human_female_duke_theocracy:0 "Княгиня-архиепископ"
+ human_duchy_theocracy:0 "Княжество-архиепископство"
+ human_male_count_theocracy:0 "Князь-епископ"
+ human_female_count_theocracy:0 "Княгиня-епископ"
+ human_county_theocracy:0 "Княжество-епископство"
+ human_male_baron_theocracy:0 "Епископ"
+ human_female_baron_theocracy:0 "Епископ"
+ human_barony_theocracy:0 "Храм"
+ 
+ ### Marches and Palatines
+ 
+ #Default Human tiers - Arathorian
+ goast_marquess_arathorian:0 "Маркграф"
+ goast_palatine_arathorian:0 "Пфальцграф"
+ goast_duke_arathorian:0 "Герцог"
+ goast_marchioness_arathorian:0 "Маркграфиня"
+ goast_palatine_f_arathorian:0 "Пфальцграфиня"
+ goast_duchess_arathorian:0 "Герцогиня"
+ goast_march_arathorian:0 "Маркграфство"
+ goast_palatinate_arathorian:0 "Пфальцграфство"
+ goast_duchy_arathorian:0 "Герцогство"
+ 
+ goast_marshall_arathorian:0 "Великий маркграф"
+ goast_archduke_arathorian:0 "Имперский граф"
+ goast_king_arathorian:0 "Эрцгерцог"
+ goast_marshall_f_arathorian:0 "Великая маркграфиня"
+ goast_archduke_f_arathorian:0 "Имперская графиня"
+ goast_queen_arathorian:0 "Эрцгерцогиня"
+ goast_marches_arathorian:0 "Великое маркграфство"
+ goast_archduchy_arathorian:0 "Имперское графство"
+ goast_kingdom_arathorian:0 "Эрцгерцогство"
+ 
+ #Default Human tiers - Lordaeronian
+ goast_marquess_lordaeronian:0 "Маркиз"
+ goast_palatine_lordaeronian:0 "Архибарон"
+ goast_duke_lordaeronian:0 "Граф"
+ goast_marchioness_lordaeronian:0 "Маркиза"
+ goast_palatine_f_lordaeronian:0 "Архибаронесса"
+ goast_duchess_lordaeronian:0 "Графиня"
+ goast_march_lordaeronian:0 "Марка"
+ goast_palatinate_lordaeronian:0 "Архибаронство"
+ goast_duchy_lordaeronian:0 "Графство"
+ 
+ goast_marshall_lordaeronian:0 "Великий маркиз"
+ goast_archduke_lordaeronian:0 "Великий граф"
+ goast_king_lordaeronian:0 "Герцог"
+ goast_marshall_f_lordaeronian:0 "Великая маркиза"
+ goast_archduke_f_lordaeronian:0 "Великая графиня"
+ goast_queen_lordaeronian:0 "Герцогиня"
+ goast_marches_lordaeronian:0 "Великая марка"
+ goast_archduchy_lordaeronian:0 "Великое графство"
+ goast_kingdom_lordaeronian:0 "Герцогство"
+ 
+ #Default Human tiers - Alteraci
+ goast_marquess_alteraci:0 "Маркиз"
+ goast_palatine_alteraci:0 "Эрл"
+ goast_duke_alteraci:0 "Граф"
+ goast_marchioness_alteraci:0 "Маркиза"
+ goast_palatine_f_alteraci:0 "Эрла"
+ goast_duchess_alteraci:0 "Графиня"
+ goast_march_alteraci:0 "Марка"
+ goast_palatinate_alteraci:0 "Эрлство"
+ goast_duchy_alteraci:0 "Графство"
+ 
+ goast_marshall_alteraci:0 "Великий маркиз"
+ goast_archduke_alteraci:0 "Великий виконт"
+ goast_king_alteraci:0 "Князь"
+ goast_marshall_f_alteraci:0 "Великая маркиза"
+ goast_archduke_f_alteraci:0 "Великая виконтесса"
+ goast_queen_alteraci:0 "Княгиня"
+ goast_marches_alteraci:0 "Великая марка"
+ goast_archduchy_alteraci:0 "Великое виконтство"
+ goast_kingdom_alteraci:0 "Княжество"
+ 
+ #Default Human tiers - Gilnean
+ goast_marquess_gilnean:0 "Маркуэс"
+ goast_palatine_gilnean:0 "Князь"
+ goast_duke_gilnean:0 "Виконт"
+ goast_marchioness_gilnean:0 "Маркуэсса"
+ goast_palatine_f_gilnean:0 "Княгиня"
+ goast_duchess_gilnean:0 "Виконтесса"
+ goast_march_gilnean:0 "Маркуэзат"
+ goast_palatinate_gilnean:0 "Княжество"
+ goast_duchy_gilnean:0 "Виконтcтво"
+ 
+ goast_marshall_gilnean:0 "Великий маркуэс"
+ goast_archduke_gilnean:0 "Великий барон"
+ goast_king_gilnean:0 "Вице-король"
+ goast_marshall_f_gilnean:0 "Великая маркуэсса"
+ goast_archduke_f_gilnean:0 "Великая баронесса"
+ goast_queen_gilnean:0 "Вице-королева"
+ goast_marches_gilnean:0 "Великий маркуэзат"
+ goast_archduchy_gilnean:0 "Великое баронство"
+ goast_kingdom_gilnean:0 "Вице-королевство"
+ 
+ ### Special
+ 
+ human_male_duke_independent_highlord:0 "Верховный лорд"
+ human_female_duke_independent_highlord:0 "Верховная леди"
+ human_duchy_independent_highlord:0 "[CHARACTER.Custom('GOASTDuchyIndependentArathor')]"
+ human_duchy_independent_highlord_default:0 "Земли"
+ human_male_duke_independent_warlord:0 "Военачальник"
+ human_female_duke_independent_warlord:0 "Военачальница"
+ human_duchy_independent_warhlord:0 "[CHARACTER.Custom('GOASTDuchyIndependentLordaeron')]"
+ human_duchy_independent_warhlord_default:0 "Домен"
+ goast_human_kingdom_independent_human_default:0 "Королевство"
+ human_kingdom_independent_arathorian:0 "Эрцгерцогство"
+ human_kingdom_independent_lordaeronian:0 "Герцогство"
+ human_kingdom_independent_alteraci:0 "Княжество"
+ human_kingdom_independent_gilnean:0 "Вице-королевство"
+ 
+ 
+ ### Human Council Positions
+ 
+ human_marshall_male_empire:0 "Великий маршал"
+ human_marshall_female_empire:0 "Великий маршал"
+ human_marshall_male_kingdom:0 "Лорд-маршал"
+ human_marshall_female_kingdom:0 "Леди-маршал"
+ human_marshall_male_duchy:0 "Генерал"
+ human_marshall_female_duchy:0 "Генерал"
+ human_marshall_male_county:0 "Капитан"
+ human_marshall_female_county:0 "Капитан"
+ 
+ human_chancellor_male_empire:0 "Верховный канцлер"
+ human_chancellor_female_empire:0 "Верховный канцлер"
+ human_chancellor_male_kingdom:0 "Лорд-канцлер"
+ human_chancellor_female_kingdom:0 "Леди-канцлер"
+ human_chancellor_male:0 "Канцлер"
+ human_chancellor_female:0 "Канцлер"
+ 
+ human_steward_male_empire:0 "Королевский управляющий"
+ human_steward_female_empire:0 "Королевский управляющий"
+ human_steward_male_kingdom:0 "Лорд-кастелян"
+ human_steward_female_kingdom:0 "Леди-кастелян"
+ human_steward_male:0 "Управитель"
+ human_steward_female:0 "Управитель"
+ 
+ human_spymaster_male_empire:0 "Око короля"
+ human_spymaster_female_empire:0 "Око короля"
+ human_spymaster_male_kingdom:0 "Лорд-дознаватель"
+ human_spymaster_female_kingdom:0 "Леди-дознаватель"
+ human_spymaster_male:0 "Эмиссар"
+ human_spymaster_female:0 "Эмиссар"
+ 
+ # Princes, Princesses and Lords
+ 
+ human_prince:0 "Принц"
+ human_princess:0 "Принцесса"
+ human_prince_empire:0 "Принц"
+ human_princess_empire:0 "Принцесса"
+ human_highlord_king:0 "Верховный лорд"
+ human_highlady_king:0 "Верховная леди"
+ human_lord_duke:0 "Лорд"
+ human_lady_duke:0 "Леди"
+ human_master_count:0 "Господин"
+ human_mistress_count:0 "Госпожа"
+ 
+ # Northern
+ human_prince_northern:0 "Великий княжич"
+ human_princess_northern:0 "Великая княжна"
+ human_prince_empire_northern:0 "Царевич"
+ human_princess_empire_northern:0 "Царевна"
+ human_lord_duke_northern:0 "Княжич"
+ human_lady_duke_northern:0 "Княжна"
+ human_master_count_northern:0 "Удельный княжич"
+ human_mistress_count_northern:0 "Удельная княжна"
+
+ # Republic
+ magistrate_male_duke:0 "Магистр"
+ magistrate_female_duke:0 "Магистр"
+ magistracy_duchy:0 "Магистратура"
+ 
+ ### Stromic ###
+ # Special
+ empire_arathor:0 "Империя"
+ stromic_male_emperor:0 "Император"
+ stromic_female_emperor:0 "Императрица"
+
+ ### Kul'tiran ###
+ # Feudal
+ lord_male_tirassian_duke:0 "Лорд"
+ lady_female_tirassian_duke:0 "Леди"
+ admiral_male_tirassian_king:0 "Адмирал"
+ admiral_female_tirassian_king:0 "Адмирал"
+ admiralty_tirassian_kingdom:0 "Адмиралтейство"
+ grand_admiral_male_tirassian_emperor:0 "Верховный адмирал"
+ grand_admiral_female_tirassian_emperor:0 "Верховный адмирал"
+ grand_admiralty_tirassian_empire:0 "Верховное адмиралтейство"
+ 
+ ### Dwarf ###
+ # Feudal/Clan/Necrotic
+ minor_lord_male_dwarf_baron:0 "Малый лорд"
+ minor_lady_female_dwarf_baron:0 "Малая леди"
+ minor_lordship_dwarf_barony:0 "Манор"
+ count_male_bronzebeard:0 "Лорд"
+ count_female_bronzebeard:0 "Леди"
+ county_bronzebeard:0 "Холд"
+ duke_male_bronzebeard:0 "Тан"
+ duke_female_bronzebeard:0 "Тан"
+ duchy_bronzebeard:0 "Танство"
+
+ ### Zandalari ###
+ # Feudal
+ god_king_feudal_emperor:0 "Король-бог"
+ god_queen_feudal_emperor:0 "Королева-богиня"
+
+ ### Blood trolls ###
+ # Feudal
+ blood_troll_male:0 "#"
+ warmother_female_blood_troll_count:0 "Матриарх"
+ grand_mada_female_blood_troll_duke:0 "Великая Ма'да"
+ queen_mada_female_blood_troll_king:0 "Королева Ма'да"
+ divine_mada_female_blood_troll_emperor:0 "Божественная Ма'да" 
+ 
+ ### Drakkari ###
+ # Feudal
+ frost_king_feudal_king:0 "Морозный король"
+ frost_queen_feudal_king:0 "Морозная королева"
+ 
+ ### Sethralic ###
+ 
+ emperor_male_sethralic_emperor:0 "Император"
+ emperor_female_sethralic_emperor:0 "Императрица"
+ empire_sethralic:0 "Империя"
+ overlord_male_sethralic_king:0 "Владыка"
+ overlord_female_sethralic_king:0 "Владычица"
+ overlordship_sethralic_kingdom:0 "Владычество"
+ sultan_male_sethralic_king:0 "Султан"
+ sultan_female_sethralic_king:0 "Султана"
+ sultanate_sethralic_kingdom:0 "Султанат"
+ emire_male_sethralic_duke:0 "Эмир"
+ emire_female_sethralic_duke:0 "Эмира"
+ emirate_sethralic_duchy:0 "Эмират"
+ wali_male_sethralic_count:0 "Вали"
+ wali_female_sethralic_count:0 "Валия"
+ wilayet_sethralic_county:0 "Вилайет"
+ lord_male_sethralic_baron:0 "Лорд"
+ lord_female_sethralic_baron:0 "Леди"
+ lordship_sethralic_barony:0 "Лордство"
+ 
+ ### Sethralic Council Positions
+ 
+ sethralic_marshall_male_empire:0 "Имперский маршал"
+ sethralic_marshall_female_empire:0 "Имперский маршал"
+ sethralic_marshall_male_kingdom:0 "Великий генерал"
+ sethralic_marshall_female_kingdom:0 "Великий генерал"
+ sethralic_marshall_male_duchy:0 "Генерал"
+ sethralic_marshall_female_duchy:0 "Генерал"
+ sethralic_marshall_male_county:0 "Капитан"
+ sethralic_marshall_female_county:0 "Капитан"
+ 
+ sethralic_chancellor_male_empire:0 "Имперский визирь"
+ sethralic_chancellor_female_empire:0 "Имперский визирь"
+ sethralic_chancellor_male_kingdom:0 "Великий визирь"
+ sethralic_chancellor_female_kingdom:0 "Великий визирь"
+ sethralic_chancellor_male:0 "Визирь"
+ sethralic_chancellor_female:0 "Визирь"
+ 
+ sethralic_steward_male_empire:0 "Имперский управляющий"
+ sethralic_steward_female_empire:0 "Имперский управляющий"
+ sethralic_steward_male_kingdom:0 "Великий управитель"
+ sethralic_steward_female_kingdom:0 "Великий управитель"
+ sethralic_steward_male:0 "Управитель"
+ sethralic_steward_female:0 "Управитель"
+ 
+ sethralic_spymaster_male_empire:0 "Имперский министр"
+ sethralic_spymaster_female_empire:0 "Имперский министр"
+ sethralic_spymaster_male_kingdom:0 "Теневой министр"
+ sethralic_spymaster_female_kingdom:0 "Теневой министр"
+ sethralic_spymaster_male:0 "Тень"
+ sethralic_spymaster_female:0 "Тень"
+ 
+ ### Gorian ###
+ 
+ imperator_male_gorian_imperator:0 "Император"
+ imperator_female_gorian_imperator:0 "Императрица"
+ imperium_gorian:0 "Империя"
+ despoth_male_gorian_king:0 "Деспот"
+ despoth_female_gorian_king:0 "Деспотина"
+ despotate_gorian_kingdom:0 "Деспотат"
+ autokrator_male_gorian_king:0 "Автократор"
+ autokrator_female_gorian_king:0 "Автократа"
+ autocracy_gorian_kingdom:0 "Автократия"
+ strategos_male_gorian_duke:0 "Стратегос"
+ strategos_female_gorian_duke:0 "Стратегисса"
+ thema_gorian_duchy:0 "Фема"
+ tyrant_male_gorian_duke:0 "Тиран"
+ tyrant_female_gorian_duke:0 "Тирана"
+ realm_gorian_duchy:0 "Держава"
+ comes_male_gorian_count:0 "Комес"
+ comes_female_gorian_count:0 "Комисса"
+ comit_gorian_county:0 "Комитат"
+ lord_male_gorian_baron:0 "Лорд"
+ lord_female_gorian_baron:0 "Леди"
+ lordship_gorian_barony:0 "Холд"
+ 
+ ### Gorian Council Positions
+ 
+ gorian_marshall_male_empire:0 "Имперский маршал"
+ gorian_marshall_female_empire:0 "Имперский маршал"
+ gorian_marshall_male_kingdom:0 "Великий генерал"
+ gorian_marshall_female_kingdom:0 "Великий генерал"
+ gorian_marshall_male_duchy:0 "Генерал"
+ gorian_marshall_female_duchy:0 "Генерал"
+ gorian_marshall_male_county:0 "Капитан"
+ gorian_marshall_female_county:0 "Капитан"
+ 
+ gorian_chancellor_male_empire:0 "Имперский канцлер"
+ gorian_chancellor_female_empire:0 "Имперский канцлер"
+ gorian_chancellor_male_kingdom:0 "Великий канцлер"
+ gorian_chancellor_female_kingdom:0 "Великий канцлер"
+ gorian_chancellor_male:0 "Канцлер"
+ gorian_chancellor_female:0 "Канцлер"
+ 
+ gorian_steward_male_empire:0 "Имперский управляющий"
+ gorian_steward_female_empire:0 "Имперский управляющий"
+ gorian_steward_male_kingdom:0 "Великий управитель"
+ gorian_steward_female_kingdom:0 "Великий управитель"
+ gorian_steward_male:0 "Управитель"
+ gorian_steward_female:0 "Управитель"
+ 
+ gorian_spymaster_male_empire:0 "Тень Императора"
+ gorian_spymaster_female_empire:0 "Тень Императора"
+ gorian_spymaster_male_kingdom:0 "Теневой лорд"
+ gorian_spymaster_female_kingdom:0 "Теневой лорд"
+ gorian_spymaster_male:0 "Тень"
+ gorian_spymaster_female:0 "Тень"
+
+ ### Dragons ###
+ # Feudal
+ lord_male_dragon_count:0 "Лорд"
+ lady_male_dragon_count:0 "Леди"
+ lordship_dragon_county:0 "Лордство"
+ overlord_male_dragon_duke:0 "Властитель"
+ overlady_female_dragon_duke:0 "Властительница"
+ high_lordship_dragon_duchy:0 "Верховное лордство"
+ dragonking_male_dragon_king:0 "Король драконов"
+ dragonqueen_female_dragon_king:0 "Королева драконов"
+ high_dragonking_male_dragon_emperor:0 "Верховный король драконов"
+ high_dragonqueen_female_dragon_emperor:0 "Верховная королева драконов"
+
+ prince_male_dragon_kingdom:0 "Принц"
+ princess_female_dragon_kingdom:0 "Принцесса"
+ prince_male_dragon_empire:0 "Принц"
+ princess_female_dragon_empire:0 "Принцесса"
+
+ ### Mantids ###
+ emperor_male_mantid:0 "Великий император"
+ empress_female_mantid:0 "Великая императрица"
+
+ imperial_vizier_male_mantid:0 "Имперский визирь"
+ imperial_vizier_female_mantid:0 "Имперский визирь"
+ grand_vizier_male_mantid:0 "Великий визирь"
+ grand_vizier_female_mantid:0 "Великий визирь"
+ vizier_male_mantid:0 "Визирь"
+ vizier_female_mantid:0 "Визирь"
+
+ ### Qiraji ###
+ # Special
+ emperor_ahn_qiraj_male_qiraji:0 "Император"
+ empress_ahn_qiraj_female_qiraji:0 "Императрица"
+ empire_ahn_qiraj:0 "Империя"
+
+ # Others
+ lord_male_qiraji_count:0 "Лорд"
+ lady_female_qiraji_count:0 "Леди"
+ hive_qiraji_county:0 "Улей"
+ high_overlord_male_qiraji_duke:0 "Верховный владыка"
+ high_overlady_female_qiraji_duke:0 "Верховная владычица"
+ brood_qiraji_duchy:0 "Выводок"
+
+ ### Dwarf Common ###
+ minor_lord_male_dwarf_count:0 "Малый лорд"
+ minor_lady_female_dwarf_count:1 "Малая леди"
+ minor_lordship_dwarf_county:0 "Малое лордство"
+
+ ### Wildhammer ###
+ # Feudal
+ chief_male_wildhammer_count:0 "Вождь"
+ chieftess_female_wildhammer_count:0 "Предводительница"
+ chiefdom_wildhammer_county:0 "Вождество"
+ thane_male_wildhammer_duke:0 "Тан"
+ thane_female_wildhammer_duke:0 "Тан"
+ high_chiefdom_wildhammer_duchy:0 "Верховное вождество"
+ high_thane_male_wildhammer_king:0 "Верховный тан"
+ high_thane_female_wildhammer_king:0 "Верховный тан"
+ high_thanedom_wildhammer_kingdom:0 "Верховное танство"
+
+ ### Dark Iron ###
+ # Feudal
+ lord_male_darkiron_count:0 "Лорд"
+ lady_female_darkiron_count:1 "Леди"
+ lordship_darkiron_county:0 "Лордство"
+ thane_male_darkiron_duke:0 "Тан"
+ thane_female_darkiron_duke:0 "Тан"
+ thanedom_darkiron_duchy:0 "Танство"
+ high_thane_male_darkiron_king:0 "Верховный тан"
+ high_thane_female_darkiron_king:0 "Верховный тан"
+ high_thanedom_darkiron_kingdom:0 "Верховное танство"
+ king_male_darkiron_king:0 "Король"
+ king_female_darkiron_king:0 "Королева"
+ kingdom_darkiron_kingdom:0 "Королевство"
+ emperor_male_darkiron_shadowforge:0 "Император"
+ emperor_female_darkiron_shadowforge:0 "Императрица"
+ empire_darkiron_shadowforge:0 "Империя"
+ emperor_male_darkiron_emperor:0 "Император"
+ emperor_female_darkiron_emperor:0 "Императрица"
+ empire_darkiron_empire:0 "Империя"
+
+ ### Old Dwarven / Frostborn ###
+ # Feudal
+ chief_male_old_dwarven_count:0 "Вождь"
+ chieftess_female_old_dwarven_count:0 "Предводительница"
+ chiefdom_old_dwarven_county:0 "Вождество"
+ thane_male_old_dwarven_duke:0 "Тан"
+ thane_female_old_dwarven_duke:0 "Тан"
+ high_chiefdom_old_dwarven_duchy:0 "Верховное вождество"
+ high_thane_male_old_dwarven_king:0 "Верховный тан"
+ high_thane_female_old_dwarven_kingdom:0 "Верховный тан"
+ 
+ ### Special
+ 
+ dwarf_male_duke_independent_pettyking:0 "Король"
+ dwarf_female_duke_independent_pettyking:0 "Королева"
+ dwarf_duchy_independent_pettykingdom:0 "[CHARACTER.Custom('GOASTDuchyIndependentDwarwen')]"
+ dwarf_duchy_independent_pettykingdom_default:0 "Королевство"
+
+ ### Vrykul group ###
+ # Feudal
+ thane_male_vrykul_count:0 "Тан"
+ thane_female_vrykul_count:0 "Тан"
+ thanedom_vrykul_county:0 "Танство"
+ jarl_male_vrykul_duke:0 "Ярл"
+ frue_female_vrykul_duke:0 "Ярл"
+ jarldom_vrykul_duchy:0 "Ярлство"
+ high_king_male_vrykul_emperor:0 "Верховный король"
+ high_queen_female_vrykul_emperor:0 "Верховная королева"
+ high_kingdom_vrykul_empire:0 "Верховное королевство"
+
+ ### Frost Vrykul Special ###
+ # Feudal
+ overthane_male_frost_vrykul_duke:0 "Верховный тан"
+ overthane_female_frost_vrykul_duke:0 "Верховный тан"
+ high_thanedom_vrykul_duchy:0 "Верховное танство"
+
+ ### Kvaldir Special ###
+ # Feudal
+ drottinn_male_kvaldir_duke:0 "Дроттинн"
+ drottning_female_kvaldir_duke:0 "Дроттнинг"
+ drottlag_kvaldir_duchy:0 "Дроттлаг"
+
+ ### Staroveric ###
+ # Feudal / Tribal / Clan
+ boyar_male_solstice_king:0 "Боярин"
+ boyar_female_solstice_king:0 "Боярыня"
+ boyardom_solstice_kingdom:0 "Боярство"
+ appanage_prince_male_solstice_count:0 "Удельный князь"
+ appanage_princess_female_solstice_count:0 "Удельная княгиня"
+ appanage_principality_solstice_county:0 "Удельное княжество"
+ prince_male_solstice_duke:0 "Князь"
+ princess_female_solstice_duke:0 "Княгиня"
+ principality_solstice_duchy:0 "Княжество"
+ grand_princess_male_solstice_king:0 "Великий князь"
+ grand_princess_female_solstice_king:0 "Великая княгиня"
+ grand_principality_solstice_kingdom:0 "Великое княжество"
+ tsar_male_solstice_emperor:0 "Царь"
+ tsaritsa_female_solstice_emperor:0 "Царица"
+ tsardom_solstice_empire:0 "Царство"
+
+ ### Dryad group ###
+ # Feudal / Republic / Clan / Theocratic / Tribal
+ tender_male_dryad_group_baron:0 "Страж"
+ tender_female_dryad_group_baron:0 "Страж"
+ refuge_dryad_group_baronny:0 "Убежище"
+ guardian_male_dryad_group_count:0 "Хранитель"
+ guardian_female_dryad_group_count:0 "Хранительница"
+ grove_dryad_group_county:0 "Роща"
+ lord_male_dryad_group_duke:0 "Лорд"
+ lady_female_dryad_group_duke:0 "Леди"
+ grand_grove_dryad_group_duchy:0 "Великая роща"
+ high_lord_male_dryad_group_king:0 "Верховный лорд"
+ high_lady_female_dryad_group_king:0 "Верховная леди"
+ domain_dryad_group_kingdom:0 "Владение"
+ king_male_dryad_group_emperor:0 "Король"
+ queen_female_dryad_group_emperor:0 "Королева"
+ kingdom_dryad_group_empire:0 "Королевство"
+
+ ### Tol'vir ###
+ # Feudal - Normal
+ hatya_male_tolvir_baron:0 "Хатья"
+ hatya_female_tolvir_baron:0 "Хатья"
+ niout_tolvir_barony:0 "Ниут"
+ heqa_male_tolvir_count:0 "Хека"
+ heqa_female_tolvir_count:0 "Хека"
+ hout_tolvir_county:0 "Визирь"
+ nomarch_male_tolvir_duke:0 "Номарх"
+ nomarch_female_tolvir_duke:0 "Номарх"
+ nome_tolvir_duchy:0 "Ном"
+ pharaoh_male_tolvir_king:0 "Фараон"
+ pharaoh_female_tolvir_king:0 "Фараон"
+
+ # Feudal - Evil religions
+ dark_pharaoh_male_tolvir_king:0 "Тёмный фараон"
+ dark_pharaoh_female_tolvir_king:0 "Тёмный фараон"
+
+ vizier_male_tolvir:0 "Визирь"
+ vizier_female_tolvir:0 "Визирь"
+ grand_vizier_male_tolvir:0 "Великий визирь"
+ grand_vizier_female_tolvir:0 "Великий визирь"
+
+ ### Mogus and Pandarens ###
+ # Feudal
+ zhang_male_mogu_baron:0 "Чжан"
+ zhang_female_mogu_baron:0 "Чжан"
+ district_mogu_baronny:0 "Округ"
+ taishou_male_mogu_count:0 "Тайшоу"
+ taishou_female_mogu_count:0 "Тайшоу"
+ commandery_mogu_county:0 "Командный пункт"
+
+ # Pandaren specific
+ mu_male_pandaren_duke:0 "Му"
+ mu_female_pandaren_duke:0 "Му"
+ province_pandaren_duchy:0 "Провинция"
+
+ # Mogu specific
+ warlord_male_mogu_duke:0 "Военачальник"
+ warlady_female_mogu_duke:0 "Военачальница"
+ clan_mogu_duchy:0 "Клан"
+
+ ### Jinyu ###
+ # Feudal / Clan
+ joshu_male_jinyu_baron:0 "Джошу"
+ joshu_female_jinyu_baron:0 "Джошу"
+ shiro_jinyu_barony:0 "Широ"
+ kokujin_male_jinyu_count:0 "Кокуджин"
+ kokujin_female_jinyu_count:0 "Кокуджин"
+ kori_jinyu_county:0 "Кори"
+ daimyo_male_jinyu_duke:0 "Даймё"
+ daimyo_female_jinyu_duke:0 "Даймё"
+ clan_jinyu_duchy:0 "Клан"
+ kokuo_male_jinyu_king:0 "Кокуо"
+ kokuo_female_jinyu_king:0 "Кохи"
+ koku_jinyu_kingdom:0 "Коку"
+
+ # Republic
+ toshiyori_male_jinyu_baron:0 "Тошиёри"
+ toshiyori_female_jinyu_baron:0 "Тошиёри"
+ chimachi_jinyu_baron:0 "Чимачи"
+ yuso_male_jinyu_count:0 "Юсо"
+ yuso_female_jinyu_count:0 "Юсо"
+ machi_jinyu_county:0 "Мачи"
+ odoshiyori_male_jinyu_duke:0 "Одошиёри"
+ odoshiyori_female_jinyu_duke:0 "Одошиёри"
+ omachi_jinyu_duchy:0 "Омачи"
+ sokan_male_jinyu_king:0 "Сокан"
+ sokan_female_jinyu_king:0 "Сокан"
+ domain_jinyu_kingdom:0 "Владение"
+ shushoo_male_jinyu_emperor:0 "Шу-шоо"
+ shushoo_female_jinyu_emperor:0 "Шу-шоо"
+ kyowa_jinyu_empire:0 "Киова"
+
+ # Theocracy
+ juji_male_jinyu_baron:0 "Джуджи"
+ juji_female_jinyu_baron:0 "Джуджи"
+ chitera_jinyu_baron:0 "Читра"
+ saito_male_jinyu_count:0 "Саито"
+ saito_female_jinyu_count:0 "Саито"
+ tera_jinyu_county:0 "Тера"
+ dai_sojo_male_jinyu_duke:0 "Дай-содзё"
+ dai_sojo_female_jinyu_duke:0 "Дай-содзё"
+ otera_jinyu_duchy:0 "Отера"
+ hossu_male_jinyu_king:0 "Хоссу"
+ hossu_female_jinyu_king:0 "Хоссу"
+ kyodan_jinyu_kingdom:0 "Киодан"
+ haku_male_jinyu_emperor:0 "Хаку"
+ haku_female_jinyu_emperor:0 "Хаку"
+ daihoshu_jinyu_empire:0 "Дайхошу"
+
+ ### Goblin ###
+ # Feudal / Republic
+ trade_baron_male_goblin_count:0 "Торговый барон"
+ trade_baroness_female_goblin_count:0 "Торговая баронесса"
+ high_barony_goblin_county:0 "Верховное баронство"
+ mogul_male_goblin_duke:0 "Шеф"
+ mogul_female_goblin_duke:0 "Шеф"
+ company_goblin_duchy:0 "Компания"
+ trade_prince_male_goblin_king:0 "Торговый принц"
+ trade_princess_female_goblin_king:0 "Торговая принцесса"
+ cartel_goblin_kingdom:0 "Картель"
+ president_male_goblin_emperor:0 "Президент"
+ president_female_goblin_emperor:0 "Президент"
+ coalition_goblin_empire:0 "Коалиция"
+
+ ### Centaur ###
+ # Feudal
+ khan_male_centaur_king:0 "Хан"
+ khan_female_centaur_king:0 "Хан"
+ khanat_centaur_kingdom:0 "Ханство"
+ khagan_male_centaur_emperor:0 "Каган"
+ khagan_female_centaur_emperor:0 "Каган"
+ khaganat_centaur_empire:0 "Каганат"
+
+ ### Taurens ###
+ # Feudal/Clans/Tribal
+ chieftain_male_tauren_count:0 "Вождь"
+ chieftain_female_tauren_count:0 "Вождь"
+ chiefdom_tauren_county:0 "Вождество"
+ high_chieftain_male_tauren_duke:0 "Верховный вождь"
+ high_chieftain_female_tauren_duke:0 "Верховная предводительница"
+ tribe_tauren_duchy:0 "Племя"
+ great_chieftain_male_tauren_king:0 "Великий вождь"
+ great_chieftain_female_tauren_king:0 "Великая предводительница"
+ confederation_tauren_kingdom:0 "Конфедерация"
+ patriarch_male_tauren_emperor:0 "Патриарх"
+ matriarch_female_tauren_emperor:0 "Матриарх"
+ high_confederation_tauren_empire:0 "Верховная конфедерация"
+
+ ### Nerubian ###
+ # Feudal/Tribal
+ lord_male_nerubian_count:0 "Лорд"
+ lady_female_nerubian_count:0 "Леди"
+ lordship_nerubian_county:0 "Лордство"
+ high_lord_male_nerubian_duke:0 "Верховный лорд"
+ high_lady_female_nerubian_duke:0 "Верховная леди"
+ high_lordship_nerubian_duchy:0 "Верховное лордство"
+ underking_male_nerubian_king:0 "Подземный король"
+ underqueen_female_nerubian_king:0 "Подземная королева"
+ king_male_nerubian_emperor:0 "Король"
+ queen_female_nerubian_emperor:0 "Королева"
+
+ legionlord_male:0 "Владыка легиона"
+ legionlord_female:0 "Владыка легиона"
+ legion:0 "Легион"
+ 
+ overlord_demonic_male:0 "Владыка"
+ overlord_demonic_female:0 "Владычица"
+ overlordship_demonic:0 "Владычество"
+ 
+ overseer_male:0 "Надзиратель"
+ overseer_female:0 "Надзирательница"
+ vile_duchy:0 "Войско"
+ 
+ lord_demonic_male:0 "Лорд"
+ lady_demonic_female:0 "Леди"
+ lordship_demonic:0 "Лордство"
+ 
+ grand_prince_eldritch_male:0 "$grand_prince_male_highborne_king$"
+ grand_princess_eldritch_female:0 "$grand_princess_female_highborne_king$"
+ grand_principality_eldritch:0 "$grand_principality_highborne_kingdom$"
+ 
+ prince_eldritch_male:0 "$prince_male_highborne_duke$"
+ princess_eldritch_female:0 "$princess_female_highborne_duke$"
+ principality_eldritch:0 "$principality_highborne_duchy$"
+ 
+ lord_eldritch_male:0 "$lord_demonic_male$"
+ lady_eldritch_female:0 "$lady_demonic_female$"
+ lordship_eldritch:0 "$lordship_demonic$"
+ 
+ ### Titanforged ###
+ # Feudal
+ groundskeeper_male_titanforged_count:0 "Садовник"
+ groundskeeper_female_titanforged_count:0 "Садовница"
+ watcher_male_titanforged_duke:0 "Смотритель"
+ watcher_female_titanforged_duke:0 "Смотрительница"
+ keeper_male_titanforged_king:0 "Хранитель"
+ keeper_female_titanforged_king:0 "Хранительница"
+ highkeeper_male_titanforged_emperor:0 "Высший хранитель"
+ highkeeper_female_titanforged_emperor:0 "Высшая хранительница"
